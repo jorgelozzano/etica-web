@@ -1,0 +1,43 @@
+.home-wrapper{
+    min-height: 80vh;
+}
+.main-caption{
+    margin:3rem auto;
+    text-align: center;
+    max-width: 60vw;
+    background-color: rgba(132, 193, 229, 0.762);
+    padding: 2rem;
+    border-radius: 12px;
+}
+.lists-wrapper{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.objetivo-wrapper, .integrantes-wrapper{
+    background-color: rgba(132, 193, 229, 0.762);
+    padding: 3rem;
+    border-radius: 12px;
+    min-height: 30vh;
+}
+.objetivo-wrapper{
+    max-width: 30vw;
+}
+.img-wrapper {
+    width: fit-content;
+    margin:5rem auto;
+
+}
+.img-wrapper img{
+    width: 30rem;
+}
+.info-wrapper{
+    margin:3rem auto;
+    text-align: center;
+    max-width: 60vw;
+    background-color: rgba(132, 193, 229, 0.762);
+    padding: 2rem;
+    border-radius: 12px;
+}

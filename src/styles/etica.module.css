@@ -1,0 +1,34 @@
+.etica-wrapper{
+    min-height: 80vh;
+    width: 85vw;
+    margin:0 auto;
+}
+.etica-wrapper h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.etica-wrapper p{
+    font-size: 1.3rem;
+}
+.block-1, .block-2{
+    display: flex;
+    flex-direction: column;
+}
+.lista-wrapper{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 2rem;
+    margin: 2rem 0;
+}
+.lista-wrapper img{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+}
+.lista-wrapper img:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,33 @@
+.derechos-wrapper{
+    min-height: 80vh;
+    width: 85vw;
+    margin:0 auto;
+}
+.derechos-wrapper h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.derechos-wrapper .caption{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+.album{
+    background-color: rgba(18, 18, 18, 0.869);
+    border-radius: 12px;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.album img{
+    margin: 2rem;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+}
+.album img:hover{
+    transform: scale(1.05);
+}
